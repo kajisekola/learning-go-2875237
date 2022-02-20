@@ -5,5 +5,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello from Go!")
+	colors := []string{"Red", "Green", "Blue"}
+	fmt.Println(colors)
+
+	// this is my change
 }
