@@ -5,5 +5,10 @@ import (
 )
 
 func main() {
-	fmt.Println("Maps")
+	states := make(map[string]string)
+	// fmt.Println(states)
+	states["WA"] = "Washington"
+	states["OR"] = "Oregon"
+	states["CA"] = "California"
+	fmt.Println(states)
 }
